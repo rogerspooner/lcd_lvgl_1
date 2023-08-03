@@ -175,7 +175,7 @@ static void create_demo_application(void)
     /* When using a monochrome display we only show "Hello World" centered on the
      * screen */
 #if defined CONFIG_LV_TFT_DISPLAY_MONOCHROME || \
-    defined CONFIG_LV_TFT_DISPLAY_CONTROLLER_ST7735S
+    defined ignore_this_CONFIG_LV_TFT_DISPLAY_CONTROLLER_ST7735S
 
     /* use a pretty small demo for monochrome displays */
     /* Get the current screen  */

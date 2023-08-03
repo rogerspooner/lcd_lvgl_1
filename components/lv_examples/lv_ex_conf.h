@@ -32,12 +32,13 @@
  *********************/
 
 /*Show some widget*/
-#ifdef CONFIG_LV_USE_DEMO_WIDGETS
+// #ifdef CONFIG_LV_USE_DEMO_WIDGETS
 #define LV_USE_DEMO_WIDGETS        1
+/* 
 #else
 #define LV_USE_DEMO_WIDGETS        0
 #endif
-
+*/
 #if LV_USE_DEMO_WIDGETS
 #ifdef CONFIG_LV_DEMO_WIDGETS_SLIDESHOW
 #define LV_DEMO_WIDGETS_SLIDESHOW   1
